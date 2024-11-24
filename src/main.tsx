@@ -5,7 +5,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 // this manifest is used temporarily for development purposes
 const manifestUrl =
-  'https://github.com/devkudasov/twa-hello-world-client/public/tonconnect-manifest.json';
+  'https://devkudasov.github.io/twa-hello-world-client/tonconnect-manifest.json';
 
 createRoot(document.getElementById('root')!).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
